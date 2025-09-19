@@ -1,0 +1,80 @@
+Class Account
++------------------------------------+
+|          Account                   |
++------------------------------------+
+| - id: int                          |
+| - balance: double                  |
++------------------------------------+
+| +Account(id: int, balance: double) |
+| +getId(): int                      |
+| +getBalance(): double              |
+| +setId(id: int): void              |
+| +setBalance(balance: double): void |
+| +printInformation(): void          |
++------------------------------------+
+
+Class Book
++---------------------------------------------------------------+
+|                      Book                                     |
++---------------------------------------------------------------+
+| - id: int                                                     |
+| - name: String                                                |
+| - price: double                                               |
+| - discount: double                                            |
++---------------------------------------------------------------+
+| +Book(id: int, name: String)                                  |
+| +Book(id: int, name: String, price: double, discount: double) |
+| +getId(): int                                                 |
+| +getName(): String                                            |
+| +getPrice(): double                                           |
+| +getDiscount(): double                                        |
+| +setId(id: int): void                                         |
+| +setName(name: String): void                                  |
+| +setPrice(price: double): void                                |
+| +setDiscount(discount: double): void                          |
+| +calculateSellingPrice(): double                              |
+| +printSellingPrice(): void                                    |
+| +printInformation(): void                                     |
++---------------------------------------------------------------+
+
+
+Class Student
++------------------------------------------------------------------+
+|                          Student                                 |
++------------------------------------------------------------------+
+| - id: int                                                        |
+| - name: String                                                   |
+| - birthYear: int                                                 |
+| - address: String                                                |
+| - currentYear: int                                               |
++------------------------------------------------------------------+
+| +Student(id: int, name: String)                                  |
+| +Student(id: int, name: String, birthYear: int, address: String) |
+| +setId(id: int): void                                            |
+| +setName(name: String): void                                     |
+| +setBirthYear(birthYear: int): void                              |
+| +setAddress(address: String): void                               |
+| +getId(): int                                                    |
+| +getName(): String                                               |
+| +getBirthYear(): int                                             |
+| +getAddress(): String                                            |
+| +printInformation(): void                                        |
+| +printAge(): void                                                |
++------------------------------------------------------------------+
+
+Class Circle
++----------------------------------+
+|              Circle              |
++----------------------------------+
+| - radius: double                 |
+| - pi: double                     |
++----------------------------------+
+| +Circle(radius: double)          |
+| +Circle()                        |
+| +getRadius(): double             |
+| +setRadius(radius: double): void |
+| +Output(): void                  |
+| +calculateArea(): void           |
+| +calculatePerimeter(): void      |
++----------------------------------+
+
