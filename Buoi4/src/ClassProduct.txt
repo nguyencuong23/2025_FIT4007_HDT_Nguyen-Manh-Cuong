@@ -1,0 +1,23 @@
++------------------------------------------------------------+
+|                         product                            |
++------------------------------------------------------------+
+| - productID: int                                           |
+| - name: String                                             |
+| - unitPrice: double                                        |
+| - discountPercent: double                                  |
++------------------------------------------------------------+
+| + product(productID: int, name: String)                    |
+| + product(productID: int, name: String,                    |
+|            unitPrice: double, discountPercent: double)     |
+| + getProductID(): int                                      |
+| + setProductID(productID: int): void                       |
+| + getName(): String                                        |
+| + setName(name: String): void                              |
+| + getUnitPrice(): double                                   |
+| + setUnitPrice(unitPrice: double): void                    |
+| + getDiscountPercent(): double                             |
+| + setDiscountPercent(discountPercent: double): void        |
+| + getSalePrice(): double                                   |
+| + updatePrice(newPrice: double): void                      |
+| + applyExtraDiscount(morePercent: double): void            |
++------------------------------------------------------------+
